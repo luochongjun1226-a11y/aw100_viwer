@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NodeZero | The $99 Stealth Home Gateway</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800;900&family=JetBrains+Mono:wght@700&display=swap');
+        body { background-color: #050505; color: #e5e5e5; font-family: 'Inter', sans-serif; overflow-x: hidden; }
+        .hero-title { background: linear-gradient(180deg, #fff 0%, #666 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .highlight-box { border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.02); transition: all 0.3s ease; }
+        .highlight-box:hover { border-color: rgba(34, 197, 94, 0.4); background: rgba(34, 197, 94, 0.02); }
+        .badge-green { background: rgba(34, 197, 94, 0.1); color: #22c55e; border: 1px solid rgba(34, 197, 94, 0.2); }
+        .image-container { border: 1px solid rgba(255,255,255,0.08); background: #101010; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5); }
+        
+        /* 针对核心功能的极客卡片风格 */
+        .feature-card { border: 1px solid rgba(255,255,255,0.05); background: rgba(255,255,255,0.01); transition: all 0.5s ease; }
+        .feature-card:hover { border-color: rgba(34, 197, 94, 0.2); box-shadow: 0 0 40px -10px rgba(34, 197, 94, 0.1); }
+        
+        /* 隐藏 Google 默认跳转的 iframe */
+        #hidden_iframe { display: none; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <nav class="max-w-6xl mx-auto px-6 py-10 flex justify-between items-center border-b border-white/5">
+        <div class="font-black tracking-tighter text-2xl tracking-[-0.05em]">NODE<span class="text-gray-500">ZERO</span></div>
+        <div class="badge-green px-4 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase">
+            ● 2026 Stealth Protocol Ready
+        </div>
+    </nav>
+
+    <main class="max-w-5xl mx-auto px-6 pt-20 text-center">
+        
+        <h1 class="hero-title text-6xl md:text-[100px] font-[900] tracking-tighter mb-8 leading-[0.85]">
+            Ownership.<br>Not a Service.
+        </h1>
+        
+        <p class="text-gray-500 text-lg md:text-xl max-w-2xl mx-auto mb-20 font-medium leading-relaxed">
+            Your private gateway stays at home. You access it from anywhere.<br>
+            <span class="text-white font-semibold">NO Registration. NO Subscriptions. NO Cloud.</span>
+        </p>
+
+        <div class="relative max-w-4xl mx-auto mb-24 transition-transform duration-700 hover:scale-[1.01]">
+            <div class="absolute -inset-20 bg-green-500/5 blur-[120px] rounded-full"></div>
+            <div class="image-container rounded-3xl p-1 overflow-hidden">
+                <img src="image_8.png" alt="NodeZero Tilted Hardware with Touchscreen QR Code" class="w-full h-auto rounded-2xl grayscale-[0.2] hover:grayscale-0 transition-all duration-1000">
+            </div>
+            <div class="absolute bottom-6 left-6 text-left p-4 bg-black/60 rounded-xl backdrop-blur-md hidden md:block border border-white/10">
+                <div class="text-[10px] text-gray-400 uppercase font-bold tracking-widest mb-1">Status: Ready to Pair</div>
+                <div class="text-green-500 font-mono text-sm font-bold tracking-tighter pulse">● Scan QR to Connect Home</div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mb-24">
+            <div class="highlight-box p-10 rounded-3xl flex flex-col items-center justify-center">
+                <h3 class="text-2xl font-black text-white mb-2 tracking-tighter uppercase">NO REGISTRATION</h3>
+                <p class="text-[11px] text-gray-500 font-bold uppercase tracking-widest italic">Privacy Sovereignty</p>
+            </div>
+            <div class="highlight-box p-10 rounded-3xl bg-white/[0.03] border-white/20 flex flex-col items-center justify-center">
+                <h3 class="text-2xl font-black text-white mb-2 tracking-tighter uppercase">NO SUBSCRIPTION</h3>
+                <p class="text-[11px] text-gray-500 font-bold uppercase tracking-widest italic">One-Time $99 Purchase</p>
+            </div>
+            <div class="highlight-box p-10 rounded-3xl flex flex-col items-center justify-center">
+                <h3 class="text-2xl font-black text-white mb-2 tracking-tighter uppercase">PLUG & PLAY</h3>
+                <p class="text-[11px] text-gray-500 font-bold uppercase tracking-widest italic">Connect Router. Scan. Go.</p>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-24 px-6 text-left">
+            <div class="feature-card p-10 rounded-[2rem]">
+                <div class="text-4xl mb-6 text-white opacity-80">🏠</div>
+                <h3 class="text-2xl font-black mb-3 text-white tracking-tighter uppercase decoration-green-500/50 underline-offset-8 underline">Stay-at-Home Gateway</h3>
+                <p class="text-sm text-gray-500 leading-relaxed font-medium">Connects to your home router's Ethernet port and stays behind your main gear. It’s a discrete, high-performance 'stealth slice' designed to tunnel you back home safely, making you appear to be in your living room.</p>
+            </div>
+            <div class="feature-card p-10 rounded-[2rem]">
+                <div class="text-4xl mb-6 text-green-500 opacity-80">👻</div>
+                <h3 class="text-2xl font-black mb-3 text-white tracking-tighter uppercase decoration-green-500/50 underline-offset-8 underline">AmneziaWG Integrated</h3>
+                <p class="text-sm text-gray-500 leading-relaxed font-medium">Not a standard VPN. It uses stealth protocol obfuscation to mask your tunnel as regular HTTPS browsing, ensuring invisible access even behind strict hotel and corporate DPI firewalls.</p>
+            </div>
+        </div>
+
+        <div id="cta-section" class="max-w-xl mx-auto mb-40 p-12 rounded-[3rem] border-2 border-green-900 bg-black shadow-[0_0_60px_-15px_rgba(34,197,94,0.3)] scroll-mt-20">
+            
+            <div id="waitlist-form-container">
+                <h2 class="text-4xl font-black mb-4 text-white uppercase italic tracking-tighter">Secure $99 Founding Price.</h2>
+                <p class="text-gray-400 text-sm mb-10 font-bold">The anonymous waitlist is now open. Lock in your batch 01 slot.</p>
+                
+                <script type="text/javascript">var submitted=false;</script>
+                <iframe name="hidden_iframe" id="hidden_iframe" onload="if(submitted) {showSuccess();}"></iframe>
+                
+                <form action="https://docs.google.com/forms/d/e/1FAIpQLScHqmrB_QFxvjcfDavH7ku73JGd5HLkQtWGVMxZd6yCILew3Q/formResponse" 
+                      method="POST" 
+                      id="waitlist-form" 
+                      target="hidden_iframe" 
+                      onsubmit="submitted=true;"
+                      class="space-y-4">
+                    
+                    <input type="email" 
+                           name="entry.1954694052" 
+                           placeholder="YOUR@EMAIL.COM" 
+                           required 
+                           class="w-full px-8 py-6 rounded-none bg-black border-2 border-white/10 focus:outline-none focus:border-green-500 transition-all font-black text-center text-xl tracking-tighter">
+                    
+                    <button type="submit" class="w-full py-6 bg-white text-black font-black text-xl hover:bg-green-500 transition-all uppercase tracking-tighter">
+                        Claim My Hardware Node
+                    </button>
+                </form>
+                </div>
+
+            <div id="waitlist-success-container" class="hidden text-center py-10">
+                <p class="text-green-500 font-black text-4xl italic uppercase underline underline-offset-8 decoration-white">Access Granted.</p>
+                <p class="mt-8 text-sm text-gray-400 font-bold leading-relaxed uppercase tracking-widest">
+                    You are in the tunnel.<br>
+                    We'll notify you when Batch 01 is ready.
+                </p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="pb-20 text-center font-black text-[10px] uppercase tracking-[0.5em] text-gray-800 border-t border-white/5 pt-16 mt-16">
+        AMNEZIAWG INTEGRATED | ZERO CLOUD | NO SUBSCRIPTIONS | HARDWARE NODE v0.1 | 2026
+    </footer>
+
+    <script>
+        function showSuccess() {
+            document.getElementById('waitlist-form-container').classList.add('hidden');
+            document.getElementById('waitlist-success-container').classList.remove('hidden');
+            document.getElementById('cta-section').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
