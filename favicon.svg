@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <!-- 背景 -->
+  <rect width="180" height="180" fill="#050505"/>
+  
+  <!-- 外圆环 - 绿色 -->
+  <circle cx="90" cy="90" r="85" fill="none" stroke="#22c55e" stroke-width="2"/>
+  
+  <!-- 内圆环 - 灰色 -->
+  <circle cx="90" cy="90" r="75" fill="none" stroke="#444" stroke-width="1"/>
+  
+  <!-- 中心圆 - 绿色 -->
+  <circle cx="90" cy="90" r="45" fill="#22c55e"/>
+  
+  <!-- 节点符号 - 使用"0"形状和连接线来表示网络/节点 -->
+  <!-- 左节点 -->
+  <circle cx="55" cy="90" r="8" fill="#050505" stroke="#22c55e" stroke-width="2"/>
+  <!-- 右节点 -->
+  <circle cx="125" cy="90" r="8" fill="#050505" stroke="#22c55e" stroke-width="2"/>
+  <!-- 上节点 -->
+  <circle cx="90" cy="55" r="8" fill="#050505" stroke="#22c55e" stroke-width="2"/>
+  <!-- 下节点 -->
+  <circle cx="90" cy="125" r="8" fill="#050505" stroke="#22c55e" stroke-width="2"/>
+  
+  <!-- 连接线 -->
+  <line x1="63" y1="90" x2="117" y2="90" stroke="#22c55e" stroke-width="1.5"/>
+  <line x1="90" y1="63" x2="90" y2="117" stroke="#22c55e" stroke-width="1.5"/>
+  
+  <!-- 中心点 -->
+  <circle cx="90" cy="90" r="5" fill="#22c55e"/>
+</svg>
